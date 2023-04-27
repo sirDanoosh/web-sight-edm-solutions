@@ -1,0 +1,44 @@
+@import '../../theme/colors.scss';
+
+.input{
+    height: 16px;
+    max-width: 320px;
+    width: 100%;
+    padding: 12px 24px;
+    color: $text-color-primary;
+    font-size: 16px;
+    line-height: 21px;
+    border: 1px solid $disabled;
+    border-radius: 12px;
+    outline: none;
+
+    &:focus{
+        border: 3px solid $disabled;
+    }
+
+    &.input--25{
+        border-left-color: $border-progress;
+        transition: 0.5s;
+    }
+
+    &.input--50{
+        border-left-color: $border-progress;
+        border-top-color: $border-progress;
+        transition: 0.5s;
+    }
+
+    &.input--75{
+        border-left-color: $border-progress;
+        border-top-color: $border-progress;
+        border-right-color: $border-progress;
+        transition: 0.5s;
+    }
+
+    &.input--100{
+        border-left-color: $border-progress;
+        border-top-color: $border-progress;
+        border-right-color: $border-progress;
+        border-bottom-color: $border-progress;
+        transition: 0.5s;
+    }
+}
