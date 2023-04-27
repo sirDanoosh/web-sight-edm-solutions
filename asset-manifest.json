@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/web-sight-edm-solutions/static/css/main.f4dc68ec.css",
-    "main.js": "/web-sight-edm-solutions/static/js/main.4fddd451.js",
+    "main.css": "/web-sight-edm-solutions/static/css/main.ed39bd8c.css",
+    "main.js": "/web-sight-edm-solutions/static/js/main.6b3b3394.js",
+    "static/media/background.webp": "/web-sight-edm-solutions/static/media/background.049229477c36e1aa23aa.webp",
     "index.html": "/web-sight-edm-solutions/index.html",
-    "main.f4dc68ec.css.map": "/web-sight-edm-solutions/static/css/main.f4dc68ec.css.map",
-    "main.4fddd451.js.map": "/web-sight-edm-solutions/static/js/main.4fddd451.js.map"
+    "main.ed39bd8c.css.map": "/web-sight-edm-solutions/static/css/main.ed39bd8c.css.map",
+    "main.6b3b3394.js.map": "/web-sight-edm-solutions/static/js/main.6b3b3394.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4dc68ec.css",
-    "static/js/main.4fddd451.js"
+    "static/css/main.ed39bd8c.css",
+    "static/js/main.6b3b3394.js"
   ]
 }
