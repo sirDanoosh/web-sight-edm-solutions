@@ -1,0 +1,61 @@
+@import '../../theme/colors.scss';
+
+.button{
+    max-width: 320px;
+    width: 100%;
+    height: 40px;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    text-decoration: none;
+    text-decoration-color: transparent;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+    color: $white;
+    background-color: $btn-bg;
+
+    &.btn--success{
+        background-color: $success;
+    }
+
+    &.btn--danger{
+        background-color: $error;
+    }
+
+    &.btn--warning{
+        background-color: $warning;
+    }
+    
+    &__txt{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        color: $white;
+    }
+
+    &--disabled{
+        background-color: $disabled !important;
+        opacity: 0.6;
+        cursor: not-allowed !important;
+        
+        .button__txt{
+            color: $white !important;
+            opacity: 0.6
+        }
+    }
+
+    &:hover:not(.button--disabled){
+        opacity: 0.7;
+        transition: 0.5s;
+        color: $white;
+    }
+}
+
+a{
+    &.button{
+        padding: 0;
+    }
+}
