@@ -24,6 +24,6 @@ use this command to update github pages based on the main branch
 
 # for accessig the "viewer" screen
 
-- you can login with any userName and with any passWord
+- you can login with any userName and with any valid passWord and choose your userType
   or
 - simply access the '/table?viewer' address

@@ -4,8 +4,9 @@ import "./index.scss";
 interface IInput {
   placeholder: string;
   onChange: (e: ChangeEvent<HTMLInputElement>) => void;
+  type?: "password";
   className?: string;
-  progress?: 25 | 50 | 75 | 100;
+  progress?: number;
 }
 
 const Input: React.FC<IInput> = (props) => {

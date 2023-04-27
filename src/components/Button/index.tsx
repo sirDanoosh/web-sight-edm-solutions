@@ -43,7 +43,9 @@ const Button: React.FC<TButton> = (props) => {
     </a>
   ) : (
     <button
-      className={`button ${disabled ? " button--disabled" : ""}btn--${variant}`}
+      className={`button ${
+        disabled ? " button--disabled" : ""
+      } btn--${variant}`}
       onClick={onClick}
       disabled={disabled}
     >
