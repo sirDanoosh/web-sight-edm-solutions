@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-escape */
 import { ChangeEvent, useEffect, useState } from "react";
 
 export enum USER_TYPE {
@@ -82,12 +83,12 @@ const useLoginBox = () => {
   return {
     tagValidationList,
     userType,
+    isSubmittable,
+    progress,
     changeUserType,
     updateUserName,
     updatePassword,
     submitHandler,
-    isSubmittable,
-    progress,
   };
 };
 

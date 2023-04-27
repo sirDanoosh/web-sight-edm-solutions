@@ -10,9 +10,9 @@ const LoginBox: React.FC<{}> = () => {
   const {
     changeUserType,
     submitHandler,
-    tagValidationList,
     updatePassword,
     updateUserName,
+    tagValidationList,
     userType,
     isSubmittable,
     progress,
